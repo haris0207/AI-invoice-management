@@ -1,0 +1,22 @@
+.dashboardheadercontainer{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.profileinfo{
+    display: flex;
+    gap: 8px;
+}
+.profileinfo img{
+    border-radius: 500px;
+}
+.name{
+    font-weight: 400;
+    font-size: 14px;
+    color: #505254;
+}
+.email{
+   color: #9798AC;
+   font-size: 14px;
+   font-weight: 400;
+}

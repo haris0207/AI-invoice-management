@@ -1,0 +1,12 @@
+.mainSectionHeader{
+   
+    display: flex;
+    gap: 8px;
+    
+}
+.mainSectioncontainer{
+    background-color: #F4F8FE;
+    padding: 2rem;
+}
+.birthday{
+padding: 18px;}
