@@ -34,9 +34,10 @@ function MainSection() {
         <img src="/images/backarrow.svg" alt="back button" />
         <div className={Style.backtext}>Back</div>
         </div>
-        <div className='flex'>
+        <div className={Style.container}>
+        <div className={Style.overviewSection}>
             <div><h4>Overview</h4></div>
-            <div>
+            <div className={Style.birthday}>
             <input type="date" id="birthday" name="birthday"/></div>
         </div>
         <div className='card-container'>
@@ -55,7 +56,7 @@ function MainSection() {
         <MainTable/>
         </Box>
       </Modal>
-    
+      </div>
        
     </div>
   )

@@ -4,9 +4,27 @@
     gap: 8px;
     
 }
+.container{
+    margin: 94px 112px 12px 112px;
+}
 .mainSectioncontainer{
     background-color: #F4F8FE;
-    padding: 2rem;
+    margin-top: 6px;
+    padding: 10px;
 }
 .birthday{
-padding: 18px;}
+}
+.backtext{
+   color: #282843; 
+}
+.overviewSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.overviewSection input{
+    margin: 0;
+    padding: 8px;
+   
+
+}

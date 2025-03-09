@@ -1,7 +1,13 @@
 .dashboardheadercontainer{
     display: flex;
     justify-content: space-between;
+    padding-bottom: 1rem;
+
    
+}
+.dashboardContainer{
+    box-shadow: 0px 8px 20px 5px rgba(26, 24, 24, 0.051);
+
 }
 .profileinfo{
     display: flex;
