@@ -4,8 +4,8 @@ import { LineChart } from '@mui/x-charts/LineChart';
 
 export default function BasicLineChart() {
   return (
-    <div style={{backgroundColor:"white", marginBottom:"28px", 
-       boxShadow: "2px 4px rgb(233, 233, 233)",borderRadius:"8px"
+    <div style={{backgroundColor:"white", marginBottom:"50px", 
+       boxShadow: "1px 4px 8px rgb(233, 233, 233)",borderRadius:"8px"
     }}>
     <LineChart
       xAxis={[{ data: [1, 2, 3, 5, 8, 10] }]}

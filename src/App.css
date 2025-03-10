@@ -24,7 +24,7 @@ body{
 .card-container{
   display: flex;
   gap: 12px;
-  margin-bottom: 8px;
+  margin-bottom: 40px;
 }
 .card{
   background-color: #FFFFFF;
