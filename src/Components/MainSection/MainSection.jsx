@@ -15,9 +15,10 @@ const style = {
   transform: 'translate(-50%, -50%)',
   width: "90%",
   bgcolor: 'background.paper',
-  border: '2px solid #000',
   boxShadow: 24,
   p: 4,
+  borderRadius:"8px",
+  outline:"none"
 };
 
 
@@ -41,11 +42,12 @@ function MainSection() {
             <input type="date" id="birthday" name="birthday"/></div>
         </div>
         <div className='card-container'>
-        <Card/>
-        <Card/>
+        <Card param={"/images/invoice.svg"}/>
+        <Card param={"/images/usersicon.svg"}/>
         </div>
         <BasicLineChart/>
         <div onClick={handleOpen}> <MainTable/></div>
+        <div style={{outline:"none"}}>
       <Modal
         open={open}
         onClose={handleClose}
@@ -56,6 +58,7 @@ function MainSection() {
         <MainTable/>
         </Box>
       </Modal>
+      </div>
       </div>
        
     </div>

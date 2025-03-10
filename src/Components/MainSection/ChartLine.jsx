@@ -4,7 +4,7 @@ import { LineChart } from '@mui/x-charts/LineChart';
 
 export default function BasicLineChart() {
   return (
-    <div style={{backgroundColor:"white", marginBottom:"16px", 
+    <div style={{backgroundColor:"white", marginBottom:"28px", 
        boxShadow: "2px 4px rgb(233, 233, 233)",borderRadius:"8px"
     }}>
     <LineChart
